@@ -1,3 +1,2 @@
 ﻿  CodeCracker.cpp
-C:\Users\gabyp\Desktop\Programmation\C++\CodeCracker\CodeCracker.cpp(21,45): warning C4806: '!=' : opération risquée : aucune valeur de type 'bool' promue en type 'char' ne peut être égale à la constante donnée
-  CodeCracker.vcxproj -> C:\Users\gabyp\Desktop\Programmation\C++\CodeCracker\Debug\CodeCracker.exe
+  CodeCracker.vcxproj -> C:\Users\wardhox\Desktop\Programmation\C++ (zinzolin)\CodeCracker\Debug\CodeCracker.exe
