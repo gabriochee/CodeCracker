@@ -11,12 +11,16 @@ bool same(char* target, char* prototype, int target_length) {
 int main()
 {
     char caracters[63] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    char mdp[] = "1234";
+    char mdp[] = "gabriel1A";
     char test[26] = { 'a' };
     int pointer = 0;
     int index = 0;
     bool cycle_ended = false;
-    while (!same(mdp,test,4)) {
+    int array_length = 1;
+    while (int(*(mdp + array_length)) != 0) {
+        array_length++;
+    }
+    while (!same(mdp,test,array_length)) {
         if (!cycle_ended) {
             test[pointer] = caracters[index];
             if (index >= 61) {
