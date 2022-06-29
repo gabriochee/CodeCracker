@@ -11,7 +11,7 @@ bool same(char* target, char* prototype, int target_length) {
 int main()
 {
     char caracters[63] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    char mdp[] = "gabriel1A";
+    char mdp[] = "PASSWORD";
     char test[26] = { 'a' };
     int pointer = 0;
     int index = 0;
@@ -40,7 +40,6 @@ int main()
                 length++;
                 if (pointer < 0) {
                     pointer = length;
-                    std::cout << length << '\n';
                     test[pointer] = 'A';
                     added = true;
                     break;
